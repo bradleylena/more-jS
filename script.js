@@ -73,5 +73,5 @@ console.log(grade);
     color: "red",
   };
   const myarray = Object.values(car);
-  console.log(myarray);
+  console.log(car.edition);
 }
