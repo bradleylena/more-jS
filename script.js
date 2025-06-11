@@ -40,3 +40,38 @@ document.getElementById("vote").innerHTML = canvote;
 let score = 90;
 let grade = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F";
 console.log(grade);
+
+// {
+//   let x = 10;
+
+//
+{
+  let score = 61;
+  let grade = score >= 70 ? "PASS" : score <= 69 ? "FAIL" : "end";
+  console.log(grade);
+}
+{
+  let car = {
+    edition: "blackedition",
+    color: "red",
+  };
+  let mystring = JSON.stringify(car);
+  console.log(mystring);
+}
+{
+  let car = {
+    edition: "blackedition",
+    color: "red",
+  };
+  Object.entries(car).forEach(([key, value]) => {
+    console.log(key + ":" + value);
+  });
+}
+{
+  let car = {
+    edition: "blackedition",
+    color: "red",
+  };
+  const myarray = Object.values(car);
+  console.log(myarray);
+}
